@@ -62,7 +62,7 @@ public class GamePlayer {
 		return visited.contains(new Position(x, y));			//uses an equals method to compare
 	}
 	
-	private static boolean isMoundTile(int x, int y) {
+	private static boolean isMoundTile(int x, int y) {         // need to implement this method to check for obstacles
 		return false;
 	}
 	
