@@ -281,8 +281,14 @@ html {
                         @include mixins.headers-styling;
                     }
 
-                   h4 a {
+                   h4 a:link {
                     color: #222;
+                    text-decoration: underline;
+                    }
+
+                    h4 a:hover {
+                        color: #DE5499;
+                        transition: transform 0.3s ease-in-out;
                     }
 
                     .project-card {
